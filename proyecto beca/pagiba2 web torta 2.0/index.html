@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élite Pastel - Repostería Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación Principal -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Élite Past</h1>
+                <span class="logo-subtitle">Repostería Artesanal</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-subtitle">Creaciones Únicas</h2>
+                <h1 class="hero-title">Repostería</h1>
+                <p class="hero-description">
+                    Cada torta es una obra maestra cuidadosamente elaborada, 
+                    donde la tradición se encuentra con la innovación para crear 
+                    momentos inolvidables.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#galeria" class="btn-primary">Productos</a>
+                    <a href="#contacto" class="btn-secondary">Solicitar Cotización</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <div class="cake-silhouette"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Galería de Portafolio -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title center">Productos </h2>
+            <p class="section-subtitle center">
+                Una selección de mis trabajos más destacados
+            </p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="wedding">Bodas</button>
+                <button class="filter-btn" data-filter="birthday">Cumpleaños</button>
+                <button class="filter-btn" data-filter="corporate">Corporativo</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="wedding">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder wedding-cake"></div>
+                        <div class="gallery-overlay">
+                            <h3>Torta de Boda Clásica</h3>
+                            <p>Tres niveles con rosas de fondant</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="birthday">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder birthday-cake"></div>
+                        <div class="gallery-overlay">
+                            <h3>Cumpleaños Temático</h3>
+                            <p>Diseño personalizado infantil</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="corporate">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder corporate-cake"></div>
+                        <div class="gallery-overlay">
+                            <h3>Evento Corporativo</h3>
+                            <p>Elegancia minimalista</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wedding">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder modern-wedding"></div>
+                        <div class="gallery-overlay">
+                            <h3>Boda Moderna</h3>
+                            <p>Diseño geométrico contemporáneo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="birthday">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder celebration-cake"></div>
+                        <div class="gallery-overlay">
+                            <h3>Celebración Especial</h3>
+                            <p>Técnica de degradado en buttercream</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="corporate">
+                    <div class="gallery-image">
+                        <div class="cake-placeholder luxury-cake"></div>
+                        <div class="gallery-overlay">
+                            <h3>Evento de Lujo</h3>
+                            <p>Detalles en oro comestible</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title center">Servicios Especializados</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wedding"></div>
+                    </div>
+                    <h3>Tortas de Boda</h3>
+                    <p>Creaciones elegantes para el día más especial, con diseños únicos y sabores exquisitos.</p>
+                    <ul class="service-features">
+                        <li>Consulta de diseño personalizada</li>
+                        <li>Degustación de sabores</li>
+                        <li>Entrega y montaje incluidos</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-birthday"></div>
+                    </div>
+                    <h3>Celebraciones Especiales</h3>
+                    <p>Tortas temáticas para cumpleaños, aniversarios y eventos familiares memorables.</p>
+                    <ul class="service-features">
+                        <li>Diseños temáticos personalizados</li>
+                        <li>Decoraciones comestibles artesanales</li>
+                        <li>Tamaños desde 6 hasta 50 personas</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-corporate"></div>
+                    </div>
+                    <h3>Eventos Corporativos</h3>
+                    <p>Repostería profesional para eventos de empresa, lanzamientos y celebraciones corporativas.</p>
+                    <ul class="service-features">
+                        <li>Branding personalizado en tortas</li>
+                        <li>Servicio para grandes volúmenes</li>
+                        <li>Presentación premium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Hagamos Realidad tu Visión</h2>
+                    <p class="contact-description">
+                        Cada proyecto es único. Cuéntame sobre tu evento especial 
+                        y crearemos juntos la torta perfecta que supere todas tus expectativas.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon phone-icon"></div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+595 971 802659</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon email-icon"></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>luciasanabria@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon location-icon"></div>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Coronel Oviedo, Paraguay</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nombre completo</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="phone">Teléfono</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="event-type" name="event-type" required>
+                            <option value="">Tipo de evento</option>
+                            <option value="wedding">Boda</option>
+                            <option value="birthday">Cumpleaños</option>
+                            <option value="anniversary">Aniversario</option>
+                            <option value="corporate">Evento Corporativo</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Cuéntame sobre tu proyecto</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Solicitar Cotización</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Élite Past</h3>
+                    <p>Creando momentos dulces e inolvidables</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#galeria">Portafolio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Élite Past. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
